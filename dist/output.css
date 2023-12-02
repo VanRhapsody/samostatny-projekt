@@ -533,3 +533,20 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.inline-block {
+  display: inline-block;
+}
+
+.list-none {
+  list-style-type: none;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.bg-red-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
+}
