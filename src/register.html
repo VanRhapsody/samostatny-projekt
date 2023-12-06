@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="bg-background-950 h-full text-text-100" style="font-family: Ubuntu, Arial, Helvetica, sans-serif;">
+
+  <div>
+    <form action="{{ url_for('register_action') }}" method="post">
+        <label for="username">Uživatelské jméno: </label><br>
+        <input type="text" required id="username" name="username" placeholder="Zadejte uživatelské jméno"><br>
+        <label for="passsword" >Heslo: </label><br>
+        <input type="password" required id="password" name="password" placeholder="Zadejte heslo: " class=""><br>
+        <input type="submit" value="Registrovat se">
+
+
+    </form>
+  </div>
+    
+</body>
+</html>
